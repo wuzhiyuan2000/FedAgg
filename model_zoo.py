@@ -356,12 +356,11 @@ def create_model(model_name):
     model=None
     if model_name=="resnet18":
         model= resnet18(num_classes=10)
+    elif model_name=='resnet10':
+        model=resnet10(num_classes=10)
     elif model_name=="resnet152":
         model= resnet152(num_classes=10)
     elif model_name=="cnn":
         model=Net()
-    elif model_name=="cnn_junk":
-        model=Net_Junk()
-    elif model_name=='resnet10':
-        model=resnet10(num_classes=10)
+
     return model
