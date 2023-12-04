@@ -10,28 +10,26 @@ from utils import KL_Loss,CE_Loss
 from torch import nn
 import utils
 
-import wandb
 
 
 def test_on_cloud(cloud_model,test_data_global,comm_round):
+    acc_all=[]        
     if True:
-        acc_all=[]        
-        if True:
-            loss_avg = utils.RunningAverage()
-            accTop1_avg = utils.RunningAverage()
-            accTop5_avg = utils.RunningAverage()
-            for batch_idx, (images, labels) in enumerate(test_data_global):
-                images, labels = images.cuda(), labels.cuda()
-                labels=torch.tensor(labels,dtype=torch.long)
-                log_probs, extracted_features = cloud_model(images)
-                metrics = utils.accuracy(log_probs, labels, topk=(1, 5))
-                accTop1_avg.update(metrics[0].item())
-                accTop5_avg.update(metrics[1].item())
-            test_metrics = {
-                            'test_accTop1': accTop1_avg.value(),
-                            'test_accTop5': accTop5_avg.value(),
-                            }
-            print("Test/AccTop1 in comm_round",comm_round,test_metrics['test_accTop1'])
+        loss_avg = utils.RunningAverage()
+        accTop1_avg = utils.RunningAverage()
+        accTop5_avg = utils.RunningAverage()
+        for batch_idx, (images, labels) in enumerate(test_data_global):
+            images, labels = images.cuda(), labels.cuda()
+            labels=torch.tensor(labels,dtype=torch.long)
+            log_probs, extracted_features = cloud_model(images)
+            metrics = utils.accuracy(log_probs, labels, topk=(1, 5))
+            accTop1_avg.update(metrics[0].item())
+            accTop5_avg.update(metrics[1].item())
+        test_metrics = {
+                        'test_accTop1': accTop1_avg.value(),
+                        'test_accTop5': accTop5_avg.value(),
+                        }
+        print("Test/AccTop1 in comm_round",comm_round,test_metrics['test_accTop1'])
 
 def run_fedagg(client_models,edge_models,cloud_model,train_data_local_num_dict, test_data_local_num_dict,train_data_local_dict, test_data_local_dict, test_data_global, args):
     V1=[Node(args,cloud_model)]
