@@ -1,4 +1,4 @@
-# FedCache
+# FedAgg
 
 This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
