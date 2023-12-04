@@ -2,7 +2,7 @@
 
 This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
-[**Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration  **.]() *IEEE International Conference on Computer Communications (INFOCOM)*. 2024 (Accepted)
+[**Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration**.]() *IEEE International Conference on Computer Communications (INFOCOM)*. 2024 (Accepted)
 
 -------
 ## Run this DEMO
@@ -14,7 +14,7 @@ This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
 [FedICT: Federated Multi-task Distillation for Multi-access Edge Computing.](https://ieeexplore.ieee.org/abstract/document/10163770/) *IEEE Transactions on Parallel and Distributed Systems (TPDS).* 2023
 
-[*FedCache: A Knowledge Cache-driven Federated Learning Architecture for Personalized Edge Intelligence*.](https://arxiv.org/abs/2308.07816) *IEEE Transactions on Mobile Computing (TMC)*. 2023 (Major Revision)
+[FedCache: A Knowledge Cache-driven Federated Learning Architecture for Personalized Edge Intelligence.](https://arxiv.org/abs/2308.07816) *IEEE Transactions on Mobile Computing (TMC)*. 2023 (Major Revision)
 
 [Exploring the Distributed Knowledge Congruence in Proxy-data-free Federated Distillation.](https://arxiv.org/abs/2204.07028) *ACM Transactions on Intelligent Systems and Technology (TIST)*. 2023 (Accepted)
 
