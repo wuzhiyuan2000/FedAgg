@@ -2,7 +2,7 @@
 
 This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
-[**Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration**.]() *IEEE International Conference on Computer Communications (INFOCOM)*. 2024 (Accepted)
+[**Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration**.](https://www.techrxiv.org/users/691165/articles/692087-agglomerative-federated-learning-empowering-larger-model-training-via-end-edge-cloud-collaboration) *IEEE International Conference on Computer Communications (INFOCOM)*. 2024 (Accepted)
 
 -------
 ## Run this DEMO
