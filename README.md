@@ -2,7 +2,7 @@
 
 This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
-[**Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration**.](https://www.techrxiv.org/users/691165/articles/692087-agglomerative-federated-learning-empowering-larger-model-training-via-end-edge-cloud-collaboration) *IEEE International Conference on Computer Communications (INFOCOM)*. 2024 (Accepted)
+[**Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration**.](https://arxiv.org/abs/2312.11489) *IEEE International Conference on Computer Communications (INFOCOM)*. 2024 (Accepted)
 
 -------
 ## Run this DEMO
@@ -14,10 +14,10 @@ This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
 ```bibtex
 @article{wu2023agglomerative,
-      title={Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration}, 
-      author={Wu, Zhiyuan and Sun, Sheng and Wang, Yuwei and Liu, Min and Gao, Bo and Pan, Quyang and He, Tianliu and Jiang, 			Xuefeng},
-      journal={arXiv preprint arXiv:2312.11489},
-      year={2023},
+  title={Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration},
+  author={Wu, Zhiyuan and Sun, Sheng and Wang, Yuwei and Liu, Min and Gao, Bo and Pan, Quyang and He, Tianliu and Jiang, Xuefeng},
+  journal={arXiv preprint arXiv:2312.11489},
+  year={2023}
 }
 ```
 
@@ -27,7 +27,9 @@ This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
 [FedCache: A Knowledge Cache-driven Federated Learning Architecture for Personalized Edge Intelligence.](https://arxiv.org/abs/2308.07816) *IEEE Transactions on Mobile Computing (TMC)*. 2023 (Major Revision)
 
-[Exploring the Distributed Knowledge Congruence in Proxy-data-free Federated Distillation.](https://arxiv.org/abs/2204.07028) *ACM Transactions on Intelligent Systems and Technology (TIST)*. 2023 (Accepted)
+[Exploring the Distributed Knowledge Congruence in Proxy-data-free Federated Distillation.](https://dl.acm.org/doi/10.1145/3639369) *ACM Transactions on Intelligent Systems and Technology (TIST)*. 2023
+
+[Federated Class-Incremental Learning with New-Class Augmented Self-Distillation.](https://arxiv.org/abs/2401.00622) *arXiv preprint arXiv:2401.00622.* 2024
 
 [Survey of Knowledge Distillation in Federated Edge Learning.](https://arxiv.org/abs/2301.05849) *arXiv preprint arXiv:2301.05849.* 2023
 
