@@ -25,7 +25,7 @@ This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
 [FedICT: Federated Multi-task Distillation for Multi-access Edge Computing.](https://ieeexplore.ieee.org/abstract/document/10163770/) *IEEE Transactions on Parallel and Distributed Systems (TPDS).* 2023
 
-[FedCache: A Knowledge Cache-driven Federated Learning Architecture for Personalized Edge Intelligence.](https://arxiv.org/abs/2308.07816) *IEEE Transactions on Mobile Computing (TMC)*. 2024
+[FedCache: A Knowledge Cache-driven Federated Learning Architecture for Personalized Edge Intelligence.](https://ieeexplore.ieee.org/document/10420495) *IEEE Transactions on Mobile Computing (TMC)*. 2024
 
 [Exploring the Distributed Knowledge Congruence in Proxy-data-free Federated Distillation.](https://dl.acm.org/doi/10.1145/3639369) *ACM Transactions on Intelligent Systems and Technology (TIST)*. 2023
 
