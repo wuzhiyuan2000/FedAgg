@@ -4,7 +4,7 @@ This repository is the official Pytorch implementation DEMO of **FedAgg**:
 
 [**Agglomerative Federated Learning: Empowering Larger Model Training via End-Edge-Cloud Collaboration**.](https://ieeexplore.ieee.org/document/10621254) *IEEE International Conference on Computer Communications (INFOCOM)*. 2024
 
-**INFOCOM 2024 Top 1 Popular Paper (Out of 256) **
+**INFOCOM 2024 Top 1 Popular Paper (Out of 256)**
 
  (as of Sep. 2024 in IEEE Xplore)
 
